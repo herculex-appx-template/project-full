@@ -1,0 +1,16 @@
+node_modules
+.entry
+.happypack
+_package
+.alipay
+_dist
+yarn.lock
+yarn-error.log
+/_tmp
+.idea
+.DS_Store
+/_tmp
+package-lock.json
+.tea
+.vscode
+.history

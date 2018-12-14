@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "add-data",
+  "usingComponents": {
+    "header-info": "/components/header-info/index"
+  }
+}

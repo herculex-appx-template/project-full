@@ -1,0 +1,3 @@
+<view class="c-header-info" a:if="{{isDataReady}}">
+  我在{{pageName}}，总数据量：{{count}}
+</view>

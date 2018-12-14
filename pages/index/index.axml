@@ -1,0 +1,15 @@
+<view a:if={{$getters.isDataReady}} class="page-index">
+
+  <header-info />
+
+  <view class="title">{{$getters.title}}</view>
+  <view class="data-table">
+    <view a:for={{$getters.demoList}} class="row">
+      <view>{{index + 1}}</view>
+      <view class="name">{{item.name}}</view>
+      <view class="value">{{item.value}}</view>
+    </view>
+  </view>
+
+  <button onTap="goToAddDataPage" type="default" plain>添加更多数据</button>
+</view>

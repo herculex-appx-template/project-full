@@ -1,0 +1,8 @@
+<view class="page-add-data">
+
+  <header-info />
+
+  <view class="total-count">新增数据：{{newAddCount}}</view>
+
+  <button onTap="handleAddMore" type="default" plain>点击加一条数据</button>
+</view>

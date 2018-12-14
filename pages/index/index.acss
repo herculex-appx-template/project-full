@@ -1,0 +1,17 @@
+.title {
+  margin: 36rpx 0;
+  text-align: center;
+}
+
+.data-table {
+  margin: 36rpx 0;
+  border-top: 1px solid #999;
+}
+
+.row {
+  margin-bottom: 20rpx;
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #999;
+}
